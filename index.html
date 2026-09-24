@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cotelo — AI search that finds exactly what you mean</title>
+  <meta name="description" content="Cotelo is an AI search engine that understands what people are really looking for and returns exactly that, from your own catalog.">
+  <meta name="theme-color" content="#2d454d">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="nav" id="top">
+    <div class="wrap nav__in">
+      <a class="brand" href="#top" aria-label="Cotelo home"><img src="assets/cotelo-logo.svg" alt="Cotelo" height="40"></a>
+      <nav class="nav__links" aria-label="Main">
+        <a href="#how">How it works</a>
+        <a href="#features">Features</a>
+        <a href="#benefits">Benefits</a>
+        <a href="#demos">Demos</a>
+        <a class="btn btn--sm" href="https://calendly.com/marwan-coteloai/30min" target="_blank" rel="noopener">Book a call</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap hero__in">
+        <p class="eyebrow">AI search engine</p>
+        <h1>Search that finds <span class="hl">exactly</span> what people mean.</h1>
+        <p class="lead">Cotelo adds an AI-powered search bar to your website. Shoppers describe what they want in their own words, and Cotelo returns the right items from your live catalog.</p>
+        <div class="hero__cta">
+          <a class="btn" href="#demos">See it in action</a>
+          <a class="btn btn--ghost" href="#how">How it works</a>
+        </div>
+
+        <div class="query" aria-label="Example of a Cotelo search">
+          <div class="query__bar">
+            <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="m20 20-3.5-3.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            <span class="query__text" id="typed" aria-live="off"></span><span class="caret"></span>
+          </div>
+          <div class="query__tags" id="tags" aria-hidden="true"></div>
+          <p class="query__note">Illustration: how Cotelo reads a natural-language request.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="how">
+      <div class="wrap">
+        <h2>How it works</h2>
+        <p class="sub">Three steps between a vague request and the right result.</p>
+        <ol class="steps">
+          <li><span class="num">1</span><h3>Understand</h3><p>Cotelo reads the request the way a person would: brand, category, color, size, price and intent, even when it's phrased loosely.</p></li>
+          <li><span class="num">2</span><h3>Intelligent Semantic Match</h3><p>Users don't need the right keywords or terminology. Cotelo matches meaning against your live catalog.</p></li>
+          <li><span class="num">3</span><h3>Rank</h3><p>Items that meet the most of what was asked come first.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section section--tint" id="features">
+      <div class="wrap">
+        <h2>Built to fit the site you already have</h2>
+        <p class="sub">Cotelo works inside your existing search bar and pages. No redesign, no new app.</p>
+        <div class="grid">
+          <article class="card"><span class="ico"><svg viewBox="0 0 24 24"><path d="M4 6h16M4 12h10M4 18h6" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/></svg></span><h3>Natural language</h3><p>“Lightweight shoes for a marathon under $150” just works. No filters to fiddle with.</p></article>
+          <article class="card"><span class="ico"><svg viewBox="0 0 24 24"><path d="M12 3v4m0 10v4M3 12h4m10 0h4" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/><circle cx="12" cy="12" r="3" fill="none" stroke="currentColor" stroke-width="2"/></svg></span><h3>Relevance first</h3><p>What the user asked for is the top ranking signal. Best matches lead, in order of how many requirements they meet.</p></article>
+          <article class="card"><span class="ico"><svg viewBox="0 0 24 24"><path d="M4 12a8 8 0 0 1 14-5.3M20 12a8 8 0 0 1-14 5.3M18 3v4h-4M6 21v-4h4" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></span><h3>Always up to date</h3><p>Results are built from your live catalog data, so price and stock changes show up immediately.</p></article>
+          <article class="card"><span class="ico"><svg viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M4 9h16" stroke="currentColor" stroke-width="2"/></svg></span><h3>Looks like your site</h3><p>Results use your own cards, layout and styling, so the experience feels native to your brand.</p></article>
+          <article class="card"><span class="ico"><svg viewBox="0 0 24 24"><rect x="5" y="11" width="14" height="9" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3" fill="none" stroke="currentColor" stroke-width="2"/></svg></span><h3>Your data stays yours</h3><p>Our demos run on a local pipeline against local data, with no external calls.</p></article>
+          <article class="card"><span class="ico"><svg viewBox="0 0 24 24"><path d="M8 8 4 12l4 4m8-8 4 4-4 4M14 5l-4 14" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></span><h3>Integrates with any data</h3><p>Built dev-first: just feed in your product details, from any source or format, and Cotelo handles the rest. No extra work for your team.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="benefits">
+      <div class="wrap">
+        <h2>What your business gets</h2>
+        <p class="sub">Better search means customers reach the right product faster.</p>
+        <div class="grid">
+          <article class="card"><h3>Stop missing sales</h3><p>Poor search sends shoppers elsewhere. <a class="src" href="https://www.prweb.com/releases/new-research-retailers-without-onsite-ai-search-risk-losing-shoppers-to-chatgpt-and-claude-302887250.html" target="_blank" rel="noopener">Nosto research</a> found 59% often leave stores over poor onsite search, and 40% would switch to AI assistants like ChatGPT.</p></article>
+          <article class="card"><h3>No work on your side</h3><p>Connect your product details and Cotelo handles the rest, with no search tuning or rules to maintain.</p></article>
+          <article class="card"><h3>No redesign</h3><p>Cotelo runs inside your existing search bar and uses your own cards and layout.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--tint" id="why-now">
+      <div class="wrap">
+        <h2>People are changing how they search</h2>
+        <p class="sub">Search engines still lead overall, but a growing share of consumers now turn to AI instead, and many existing site searches fall short.</p>
+        <div class="grid">
+          <figure class="stat">
+            <div class="stat__n">65%</div>
+            <figcaption><p>of consumers who use AI have at least partially swapped out Google for chatbots.</p>
+              <cite>Semrush survey of 2,338 US adults, July 2026 &middot; <a href="https://www.semrush.com/blog/ai-chatbots-talk-ai-users-out-of-buying/" target="_blank" rel="noopener">source</a></cite></figcaption>
+          </figure>
+          <figure class="stat">
+            <div class="stat__n">42%</div>
+            <figcaption><p>of millennials and Gen Z mostly or always use search engines, versus 76% of baby boomers. Younger users lean toward chatbots.</p>
+              <cite>Bain &amp; Company survey of 1,500 consumers, September 2025 &middot; <a href="https://www.bain.com/insights/why-consumers-choose-an-ai-chatbot-over-a-search-engine-snap-chart/" target="_blank" rel="noopener">source</a></cite></figcaption>
+          </figure>
+          <figure class="stat">
+            <div class="stat__n">56%</div>
+            <figcaption><p>of e-commerce sites fail to adequately support users' search needs, and 43% have issues with use-case searches.</p>
+              <cite>Baymard Institute benchmark of 170+ sites and apps, updated April 2026 &middot; <a href="https://baymard.com/blog/ecommerce-search-query-types" target="_blank" rel="noopener">source</a></cite></figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="demos">
+      <div class="wrap">
+        <h2>Demo Cotelo on your site.</h2>
+        <p class="sub">See Cotelo working on a copy of your own site. Book a call and we will show you how Cotelo works on your site!</p>
+        <a class="btn" href="https://calendly.com/marwan-coteloai/30min" target="_blank" rel="noopener">Book a call</a>
+      </div>
+    </section>
+
+    <section class="cta" id="contact">
+      <div class="wrap cta__in">
+        <h2>Want Cotelo on your site?</h2>
+        <p>Tell us what your customers search for and we'll show you what it looks like.</p>
+        <a class="btn btn--light" href="https://calendly.com/marwan-coteloai/30min" target="_blank" rel="noopener">Book a call</a>
+        <p class="cta__mail">Or email <a href="mailto:marwan@coteloai.com">marwan@coteloai.com</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <div class="wrap foot__in">
+      <img src="assets/cotelo-logo.svg" alt="Cotelo" height="30">
+      <small>&copy; <span id="yr">2026</span> Cotelo. All rights reserved.</small>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
