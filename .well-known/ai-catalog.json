@@ -1,0 +1,14 @@
+{
+  "specVersion": "1.0",
+  "name": "Cotelo",
+  "description": "On-site AI search engine for e-commerce websites. Shoppers describe what they want in their own words and Cotelo returns the right items from the live catalog.",
+  "url": "https://coteloai.com/",
+  "contact": { "email": "marwan@coteloai.com", "booking": "https://calendly.com/marwan-coteloai/30-minute-meeting?month=2026-09" },
+  "resources": [
+    { "type": "llms-txt", "url": "https://coteloai.com/llms.txt" },
+    { "type": "sitemap", "url": "https://coteloai.com/sitemap.xml" }
+  ],
+  "webmcp": {
+    "tools": ["get_booking_link", "get_contact_email", "go_to_section"]
+  }
+}
