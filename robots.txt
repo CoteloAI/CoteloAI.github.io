@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://coteloai.com/sitemap.xml
