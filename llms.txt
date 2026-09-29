@@ -1,0 +1,20 @@
+# Cotelo
+
+> Cotelo is an on-site AI search engine for e-commerce websites. Shoppers describe what they want in their own words, and Cotelo returns the right items from the store's live catalog.
+
+Cotelo runs inside a store's existing search bar and pages, using the store's own cards and layout. There is no redesign and no new app. Product details can be fed in from any source or format, with no search tuning or rules to maintain.
+
+## How it works
+
+- Understand: reads the request the way a person would (brand, category, color, size, price and intent), even when phrased loosely.
+- Intelligent semantic match: matches meaning against the live catalog, so shoppers don't need the right keywords or terminology.
+- Rank: items that meet the most of what was asked come first.
+
+## Pages
+
+- [Cotelo home](https://coteloai.com/): overview, how it works, features and demos.
+
+## Contact
+
+- Email: marwan@coteloai.com
+- Book a call: https://calendly.com/marwan-coteloai/30min
