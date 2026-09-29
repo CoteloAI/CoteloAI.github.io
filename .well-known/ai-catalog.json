@@ -1,14 +1,35 @@
 {
   "specVersion": "1.0",
-  "name": "Cotelo",
-  "description": "On-site AI search engine for e-commerce websites. Shoppers describe what they want in their own words and Cotelo returns the right items from the live catalog.",
-  "url": "https://coteloai.com/",
-  "contact": { "email": "marwan@coteloai.com", "booking": "https://calendly.com/marwan-coteloai/30-minute-meeting?month=2026-09" },
-  "resources": [
-    { "type": "llms-txt", "url": "https://coteloai.com/llms.txt" },
-    { "type": "sitemap", "url": "https://coteloai.com/sitemap.xml" }
-  ],
-  "webmcp": {
-    "tools": ["get_booking_link", "get_contact_email", "go_to_section"]
-  }
+  "entries": [
+    {
+      "identifier": "urn:air:coteloai.com:site:cotelo",
+      "displayName": "Cotelo",
+      "type": "application/json",
+      "description": "On-site AI search engine for e-commerce websites. Shoppers describe what they want in their own words and Cotelo returns the right items from the live catalog.",
+      "version": "1.0.0",
+      "updatedAt": "2026-09-29T00:00:00Z",
+      "tags": ["ai-search", "e-commerce", "semantic-search"],
+      "representativeQueries": [
+        "AI search engine for an e-commerce website",
+        "Add natural-language product search to my online store",
+        "Book a demo of on-site AI search"
+      ],
+      "data": {
+        "website": "https://coteloai.com/",
+        "contact": "marwan@coteloai.com",
+        "booking": "https://calendly.com/marwan-coteloai/30-minute-meeting?month=2026-09",
+        "webmcpTools": ["get_booking_link", "get_contact_email", "go_to_section"]
+      }
+    },
+    {
+      "identifier": "urn:air:coteloai.com:docs:llms-txt",
+      "displayName": "Cotelo llms.txt",
+      "type": "text/markdown",
+      "url": "https://coteloai.com/llms.txt",
+      "description": "Plain-language summary of Cotelo for LLMs and AI agents.",
+      "version": "1.0.0",
+      "updatedAt": "2026-09-29T00:00:00Z",
+      "tags": ["documentation"]
+    }
+  ]
 }
