@@ -6,7 +6,7 @@ if (navigator.modelContext && navigator.modelContext.registerTool) {
 
   navigator.modelContext.registerTool({
     name: "get_booking_link",
-    description: "Get the link to book a 30-minute call with Cotelo to see AI search demoed on your own website.",
+    description: "Get the link to book a 30-minute call with Cotelo to see agentic AI conference planning demoed on your own event.",
     inputSchema: { type: "object", properties: {} },
     annotations: { readOnlyHint: true },
     async execute() { return text(BOOKING_URL); },
