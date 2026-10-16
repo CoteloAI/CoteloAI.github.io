@@ -1,11 +1,11 @@
 // Illustration only: cycles example requests and shows how each is broken into requirements.
 const examples = [
-  { q: "lightweight running shoes for a marathon under $150",
-    tags: [["Category","Running"],["Need","Lightweight"],["Use","Marathon"],["Price","< $150"]] },
-  { q: "black waterproof jacket for men, on sale",
-    tags: [["Color","Black"],["Feature","Waterproof"],["Gender","Men"],["Type","Jacket"],["Deal","On sale"]] },
-  { q: "a laptop for video editing under $1,200",
-    tags: [["Category","Laptop"],["Use","Video editing"],["Price","< $1,200"]] },
+  { q: "find a fintech sponsor for a 500-person developer conference in Berlin",
+    tags: [["Task","Find sponsor"],["Industry","Fintech"],["Audience","Developers"],["Size","500 people"],["City","Berlin"]] },
+  { q: "venue in Lisbon for 300 guests, 2 days in May, under €40k",
+    tags: [["Task","Find venue"],["City","Lisbon"],["Size","300 guests"],["Length","2 days"],["Month","May"],["Budget","< €40k"]] },
+  { q: "build a 2-day agenda with 3 tracks and 20 speakers",
+    tags: [["Task","Schedule"],["Length","2 days"],["Tracks","3"],["Speakers","20"]] },
 ];
 
 const typed = document.getElementById("typed");
