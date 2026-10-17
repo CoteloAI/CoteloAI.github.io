@@ -5,14 +5,14 @@
       "identifier": "urn:air:coteloai.com:site:cotelo",
       "displayName": "Cotelo",
       "type": "application/json",
-      "description": "Agentic AI that automates conference planning: sponsor matching, venue sourcing and scheduling.",
+      "description": "Agentic AI that automates conference planning: sponsor matching.",
       "version": "1.0.0",
       "updatedAt": "2026-10-16T00:00:00Z",
-      "tags": ["conference-planning", "event-planning", "agentic-ai", "sponsor-matching", "venue-sourcing"],
+      "tags": ["conference-planning", "event-planning", "agentic-ai", "sponsor-matching"],
       "representativeQueries": [
         "AI tool to find sponsors for my conference",
-        "Automate venue sourcing for an event",
-        "Agentic AI for conference scheduling"
+        "Automate sponsorship outreach for an event",
+        "Match sponsors to my conference brand"
       ],
       "data": {
         "website": "https://coteloai.com/",

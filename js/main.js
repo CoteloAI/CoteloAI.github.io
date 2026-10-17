@@ -2,10 +2,10 @@
 const examples = [
   { q: "find a fintech sponsor for a 500-person developer conference in Berlin",
     tags: [["Task","Find sponsor"],["Industry","Fintech"],["Audience","Developers"],["Size","500 people"],["City","Berlin"]] },
-  { q: "venue in Lisbon for 300 guests, 2 days in May, under €40k",
-    tags: [["Task","Find venue"],["City","Lisbon"],["Size","300 guests"],["Length","2 days"],["Month","May"],["Budget","< €40k"]] },
-  { q: "build a 2-day agenda with 3 tracks and 20 speakers",
-    tags: [["Task","Schedule"],["Length","2 days"],["Tracks","3"],["Speakers","20"]] },
+  { q: "find a healthcare sponsor for a 300-person nurses conference in Lisbon",
+    tags: [["Task","Find sponsor"],["Industry","Healthcare"],["Audience","Nurses"],["Size","300 people"],["City","Lisbon"]] },
+  { q: "sponsor for a 2-day AI summit in London, budget up to €50k",
+    tags: [["Task","Find sponsor"],["Topic","AI"],["Length","2 days"],["City","London"],["Budget","< €50k"]] },
 ];
 
 const typed = document.getElementById("typed");

@@ -1,14 +1,14 @@
 # Cotelo
 
-> Cotelo provides agentic AI that automates conference planning. AI agents find sponsors that match an event's brand, source venues, and build the schedule.
+> Cotelo provides agentic AI that automates conference planning. AI agents find sponsors that match an event's brand.
 
-Planners describe their event in plain words. Cotelo's agents research and rank sponsors and venues, draft the agenda, and present options. The planner approves every decision.
+Planners describe their event in plain words. Cotelo's agents research and rank sponsors and present options. The planner approves every decision.
 
 ## How it works
 
 - Brief: the planner describes topic, audience, size, dates, budget and brand.
-- Review and approve: the planner sees a ranked shortlist of sponsors and venues and a draft schedule, approves what fits, and changes what does not.
-- Share in one place: all approved details are published on one page for attendees, so no one has to collect information from separate sources.
+- Review and approve: the planner sees a ranked shortlist of sponsors, approves what fits, and changes what does not.
+- Share in one place: approved sponsors are published on one page, so no one has to collect information from separate sources.
 
 ## Pages
 
